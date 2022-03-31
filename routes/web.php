@@ -11,19 +11,13 @@
 |
 */
 
-<<<<<<< HEAD
+
 Route::get('/', 'PostController@index');
 
 Route::get('/posts/{post}', 'PostController@show');
-<<<<<<< HEAD
-=======
 
->>>>>>> 4ee560f05a887bac67ca51e2f40c90d3db15abee
-=======
 /*
 Route::get('/', function () {
     return view('index');
 });
 */
-Route::get('/', 'PostController@index');
->>>>>>> refs/remotes/origin/master

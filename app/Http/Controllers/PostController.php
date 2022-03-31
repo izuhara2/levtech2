@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-<<<<<<< HEAD
    public function index(Post $post)
     {
        return view('posts/index')->with(['posts' => $post->getPaginateByLimit()]);
@@ -23,17 +22,5 @@ class PostController extends Controller
     {
         return view('posts/show')->with(['post' => $post]);
     }   
-<<<<<<< HEAD
-}
-=======
 }
 
->>>>>>> 4ee560f05a887bac67ca51e2f40c90d3db15abee
-=======
-   public function index()
-    {
-        $post=new Post;
-        return view('posts/index')->with(['test' => $post->getPaginateByLimit()]);  
-    }
-}
->>>>>>> refs/remotes/origin/master

@@ -19,8 +19,5 @@
             </div>
             <div class='back'>[<a href='/'>back</a>]</div>
     </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 4ee560f05a887bac67ca51e2f40c90d3db15abee
+
