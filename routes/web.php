@@ -30,3 +30,8 @@ Route::put('/posts/{post}', 'PostController@update');
 
 Route::delete('/posts/{post}', 'PostController@delete');
 
+Route::get('/categories/{category}', 'CategoryController@index');
+Auth::routes();
+
+
+
